@@ -1,22 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background: url('../img/bedge_grunge.png');
+}
+
 .nav{
 	margin: 0 auto;
 	width: 800px;
-	overflow: none;
+	border-bottom: 5px solid #DDD;;
 }
 
 .nav li{
 	float: left;
+	text-align: center;
 	width: 33.33%;
 }
 
-.page-header {
+a {
+	color: #547C8C;
+}
+
+#banner {
 	margin: 0 auto;
-	margin-top: 50px;
 	width: 800px;
-	overflow: none;
+	height: 200px;
+}
+
+.page-header {
+	border-bottom: 4px solid #EEE;
+	margin: 0 auto;
+	width: 800px;
 }
 
 .home-content {
@@ -32,19 +46,27 @@
 
 #myCarousel {
 	margin: 0 auto;
+	margin-right: 35px;
 	width: 400px;
 	float: right;
 	overflow: none;
 }
 
 #quote {
-	margin-top: 50px;
+	margin-top: 60px;
+	color: #547C8C;
+	font-size: 2em;
+	float: left;
+	line-height: 25px;
+	border-left: none;
 }
 
-#myCarousel {
-	border-radius: 20px;
+#name {
+	color: #547C8C;
 }
 
-
-
+#logo {
+	margin-left: 10px;
+	float: left;
+}
 
