@@ -29,3 +29,22 @@
 .nav li:last {
 	float: right;
 }
+
+#myCarousel {
+	margin: 0 auto;
+	width: 400px;
+	float: right;
+	overflow: none;
+}
+
+#quote {
+	margin-top: 50px;
+}
+
+#myCarousel {
+	border-radius: 20px;
+}
+
+
+
+
