@@ -3,6 +3,7 @@
 
 body {
 	background: url('../img/bedge_grunge.png');
+	font-family: 'Roboto', sans-serif;
 }
 
 .nav{
@@ -15,6 +16,7 @@ body {
 	float: left;
 	text-align: center;
 	width: 33.33%;
+	text-transform: uppercase;
 }
 
 a {
@@ -46,9 +48,8 @@ a {
 
 #myCarousel {
 	margin: 0 auto;
-	margin-right: 35px;
 	width: 400px;
-	float: right;
+	float: left;
 	overflow: none;
 }
 
@@ -70,3 +71,8 @@ a {
 	float: left;
 }
 
+h4 {
+	margin-bottom: 50px;
+	text-align: center;
+	width: 600px;
+}
