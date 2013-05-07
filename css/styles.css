@@ -23,6 +23,7 @@ a {
 	color: #547C8C;
 }
 
+
 #banner {
 	margin: 0 auto;
 	width: 800px;
@@ -35,7 +36,7 @@ a {
 	width: 800px;
 }
 
-.home-content {
+.content {
 	margin: 0 auto;
 	margin-top: 50px;
 	width: 800px;
@@ -72,7 +73,14 @@ a {
 }
 
 h4 {
-	margin-bottom: 50px;
-	text-align: center;
-	width: 600px;
+	text-align: justify;
+}
+
+#description {
+	width: 500;
+	margin: 50px 0px 50px 0px;
+}
+
+.thumbnail+gallery {
+	margin: 0px 100px;
 }

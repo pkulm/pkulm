@@ -6,5 +6,10 @@ $(document).ready(function(){
 	$('.carousel').carousel({
   interval: 3000
 })
+
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
 	
 });

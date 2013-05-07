@@ -11,18 +11,18 @@
   <body>
   <div id= "banner"><img src="img/banner.png" /></div>
    <div class="page-header"></div>
-   <ul class="nav nav-tabs">
-  <li><a href="#"><h2>Paige Kulm</h2></a></li>
-  <li><a href="#"><h2>Gallery</h2></a></li>
-  <li><a href="#"><h2>About</h2></a></li>
+
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#paige-kulm"><h3>Paige Kulm</h3></a></li>
+  <li><a href="#gallery"><h3>Gallery</h3></a></li>
+  <li><a href="#about"><h3>About</h3></a></li>
 </ul>
-
-	
-
-<div class="home-content"><!--
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="paige-kulm"><div class="content"><!--
 	<img src="img/logo.png" id= "logo"/>-->
-    <div>
-    <h4>Welcome to Pg. design. This small organization currently is located in Spokane Washington.Pg. design presently consists of one graphic designer, Paige Kulm, who designs logos, posters, and websites, as well as any other design needs you may have.</h4>
+    <div id="description">
+    <h4>Welcome to Pg. design. This small organization currently is located in Spokane Washington.  Pg. design presently consists of one graphic designer, Paige Kulm, who designs logos, posters, and websites, as well as any other design needs you may have.</h4>
     </div>
 	  <div id="myCarousel" class="carousel slide">
       <ol class="carousel-indicators">
@@ -64,7 +64,32 @@
     
 	<blockquote id="quote">"The best way to accomplish serious design is to be totally and completely unqualified for the job." 
     <small id ="name">Paula Scher</small></blockquote>
+</div></div>
+  <div class="tab-pane" id="gallery">
+  <div class="content">
+  <ul class="thumbnails">
+  <li class="span4">
+    <div class="thumbnail gallery">
+      <img src="http://placehold.it/400x300" alt="">
+      <h3>School Work</h3>
+      <p>These are pieces that have been designed for school projects and demonstrate certain design elements and/or principles.</p>
+    </div>
+  </li>
+  <li class="span4">
+    <div class="thumbnail gallery">
+      <img src="http://placehold.it/400x300" alt="">
+      <h3>Personal Work</h3>
+      <p>Paige Kulm has designed these pieces for various reasons outside of being a student, either for an employer or volunteer work.</p>
+    </div>
+  </li>
+</ul>
 </div>
+</div>
+  <div class="tab-pane" id="about">About</div>
+</div>
+	
+
+
 <div class="footer"></div>
 <ul class="nav nav-tabs">
   <li><a href="#">&#xe000;</a></li>
